@@ -16,6 +16,7 @@ public class EmailValidatorTest {
     @Test
     public void whenEmailNotValid() {
         String email = "";
+        //assertThat(validator.validate(email)).isFalse;
         assertEquals(validator.validate(email),false);
     }
 

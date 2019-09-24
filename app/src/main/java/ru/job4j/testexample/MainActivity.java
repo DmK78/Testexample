@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         buttonSend=findViewById(R.id.buttonSend);
+
         textViewStatus=findViewById(R.id.textViewStatus);
         buttonSend.setOnClickListener(new View.OnClickListener() {
             @Override
